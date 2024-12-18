@@ -1,1 +1,50 @@
 /* your code here */
+.product{
+	display:flex;
+	background-color:white;
+}
+.photo-main{
+	margin:10px;
+	background-color:green;
+	z-index=1;
+	border-radius:5px;
+}
+.controls{
+	display:flex;
+	justify-content:space-between;
+	color:white;
+}
+.u{
+	display:flex;
+	justify-content:center;
+	list-style-type:none;
+}
+.p{
+	border:2px ridge white;
+	border-radius:5px;
+	margin:1px;
+}
+.B{
+	margin:5px;
+}
+
+.title h1{
+	margin-bottom:0px;
+}
+.title span{
+	font-size:10px;
+}
+.price{
+	margin:20px;
+		color:red;
+}
+.price span{
+	font-size:50px;
+}
+button{
+	margin:40px 0px 0px 20px;
+	background-color:red;
+	color:white;
+	padding:10px;
+	border-radius:5px;
+}
